@@ -1,0 +1,14 @@
+"""Memory Wiki — Hermes Agent dashboard plugin.
+
+The whole feature is a dashboard extension (``dashboard/manifest.json`` +
+``dashboard/dist/index.js`` + ``dashboard/plugin_api.py``); the web server
+discovers and mounts it once this plugin is in ``plugins.enabled``.
+``register()`` exists so the plugin has a standard loader surface and can be
+listed/enabled with ``hermes plugins``; it registers no tools or hooks.
+"""
+
+from __future__ import annotations
+
+
+def register(ctx) -> None:  # noqa: ARG001 — nothing to register for a dashboard-only plugin
+    return None
