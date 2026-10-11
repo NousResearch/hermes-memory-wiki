@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **This repo has moved.** The plugin now lives in [`NousResearch/hermes-official-plugins/memory-wiki`](https://github.com/NousResearch/hermes-official-plugins/tree/main/memory-wiki), the single repo for Nous's official Hermes plugins. Its history, open issues and pull requests went with it, and this repo is archived.
+>
+> Already installed? `hermes plugins update` moves you to the new home automatically. New install: `hermes plugins install` from the plugin catalog.
+
 # hermes-memory-wiki
 
 Memory Wiki dashboard plugin for [Hermes Agent](https://github.com/NousResearch/hermes-agent):
